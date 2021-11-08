@@ -165,13 +165,7 @@ function createDate(date, bool = true) {
 // Event listener
 let currentAccount;
 
-//Fake Login///////////
-currentAccount = account1;
-updateUI(currentAccount);
-containerApp.style.opacity = 1;
-labelWelcome.textContent = `Welcome back, ${
-  currentAccount.owner.split(" ")[0]
-}`;
+//Fake Login
 
 //Login
 btnLogin.addEventListener("click", function (e) {
